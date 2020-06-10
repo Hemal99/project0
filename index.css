@@ -1,0 +1,15 @@
+body{
+
+   background-color: azure;
+    height: 100vh;
+}
+
+.intro{
+    text-align: center;
+}
+
+img{
+    justify-self: center;
+   margin: 100px 100px 100px 600px ;
+    width:  300px;
+}
