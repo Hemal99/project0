@@ -1,0 +1,31 @@
+
+body{
+ background: rgba(186, 212, 255, 0.5);;
+}
+
+h1{
+    text-align: center;
+}
+
+.title{
+position:absolute;
+top: 10%;
+left: 40%;
+}
+
+.content{
+    text-align: center;
+    margin-top: 50px;
+    position:absolute;
+}
+
+img {
+	width: 400px;
+	
+	transition:all 0.5s;
+}
+
+img:hover {
+	height: 500px;
+	width: auto;
+}
