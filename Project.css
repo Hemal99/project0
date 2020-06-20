@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=project.css.map */
+input[type=text] {
+  background-color: red;
+}
+
+input[type=number] {
+  background-color: red;
+}
+/*# sourceMappingURL=project.css.map */
