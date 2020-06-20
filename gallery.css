@@ -24,7 +24,7 @@ img {
 	
 	transition:all 0.5s;
 }
-
+/*pseudoclass selector*/
 img:hover {
 	height: 500px;
 	width: auto;
