@@ -29,3 +29,7 @@ img:hover {
 	height: 500px;
 	width: auto;
 }
+/*decendant selector*/
+ul li a {
+    color: red;
+}
