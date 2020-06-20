@@ -3,6 +3,33 @@ input[type=text] {
 }
 
 input[type=number] {
-  background-color: aqua;
+  background-color: yellow;
+}
+
+h1, h2 {
+  text-align: center;
+  -webkit-text-decoration: blueviolet;
+          text-decoration: blueviolet;
+  color: red;
+}
+
+form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.button1 {
+  margin-left: 45%;
+}
+
+.heading {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(186, 212, 255, 0.5);
 }
 /*# sourceMappingURL=project.css.map */

@@ -8,14 +8,15 @@
 </head>
 <body>
     <h1>**Project**</h1>
-    <p>Please be kind enough to fill this form <br>Survey for university Project</p>
+    <p class="heading">Please be kind enough to fill this form <br>Survey for university Project</p>
     <form>
 
-        <div>
-            <input name="name" type="text" placeholder="Name">
-            <input name="age" type="number" placeholder="Age">
-        </div>
-        <div>
+        <div>Name :
+            <input  name="name" type="text" placeholder="Name">
+        </div><br>
+        <div>Age :
+             <input name="age" type="number" placeholder="Age"></div>
+        <div><br>
             Favorite color?
             <input name="color" type="radio" value="red"> Red
             <input name="color" type="radio" value="green"> Green
@@ -23,7 +24,7 @@
             <input name="color" type="radio" value="other"> Other
         </div>
 
-        <div>
+        <div>country :
             <input name="country" list="countries" placeholder="Country">
             <datalist id="countries">
                 <option value="Afghanistan">
@@ -223,8 +224,14 @@
                 <option value="Zambia">
                 <option value="Zimbabwe">
             </datalist>
-        </div>
-
-    </form>
+        </div><br>
+        <div>height : <input  type="number" placeholder="cm"></div><br>
+        <div>Weight : <input  type="number" placeholder="KG"></div>
+    
+    </form><br><br>
+    <button class="button1">Submit</button>
+    <button>clear</button>
+    <br><br>
+    <h2>Thank you!</h2>   
 </body>
 </html>

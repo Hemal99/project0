@@ -1,8 +1,29 @@
-$color:aqua;
+$color1:aqua;
+$color2:yellow;
 input[type=text] {
-    background-color:$color;
+    background-color:$color1;
 }
 
 input[type=number] {
-    background-color:$color;
+    background-color:$color2;
+}
+h1,h2{
+    text-align: center;
+    text-decoration: blueviolet;
+    color: red;
+}
+form{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.button1{
+    margin-left: 45%;
+}
+.heading{
+    text-align: center;
+}
+body{
+    background-color: rgba(186, 212, 255, 0.5);
 }
