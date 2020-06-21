@@ -33,3 +33,7 @@ img:hover {
 ul li a {
     color: red;
 }
+
+a::before{
+    content: "\21d2 click ";
+}
